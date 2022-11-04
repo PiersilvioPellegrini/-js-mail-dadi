@@ -4,13 +4,13 @@ let numComputer;
 
 // FUNZIONE PER GENERARE NUMERO RANDOM
 // ASSEGNO IL VALORE RANDOM ALLE VARIBILI NUMUSER E NUMCOMPUTER
-var randInt1 = Math.floor(Math.random() * 7);
+var randInt1 = Math.ceil(Math.random() * 6);
 numUser = randInt1;
 console.log(numUser);
 const outUser = document.getElementById("user");
 outUser.innerHTML = "il tuo numero è <br>" + numUser;
 
-var randInt2 = Math.floor(Math.random() * 7);
+var randInt2 = Math.ceil(Math.random() * 6);
 numComputer = randInt2;
 console.log(numComputer);
 const outPc = document.getElementById("pc");
